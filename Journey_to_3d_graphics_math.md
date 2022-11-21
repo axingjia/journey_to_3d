@@ -112,6 +112,76 @@ SKIP
 
 # Chapter 2: Vectors
 * MY: Important primer to LA
+* Vectors are the formal mathematical entities we use to do 2D and 3D math. The word vector has two distinct but related meanings. Mathematics books, especially those on linear alebra, tend to focus on a rather abstract definition, caring about the numbers in a vector but not necessarily about the the context of actual meaning of those numbers. Physics books, on the other hand, tend towards an interpretation that treats a vector as a geometric entity to the extent that they avoid any mention of the coordinates used to measure vector, when possible. It's no wonder that you can sometimes find people from these two disciplines correcting one another on the finer points of "how vectors really work". Of course the reality is that they are both right (But the perspective taken by physics textbooks is probably the one that's more appropriate for video game programming, at least in the beginning), and to be proficient with 3D math, we need to understand both interpretations of vectors and how the two interpretations are related.
+* This chapter introduces the concept of vectors. It is divided into the following sections.
+
+        * Section 2.1 covers some of the basic mathematical properties of vectors
+        * Section 2.2 gives a high-level introduction to the geometric properties of vectors
+        * Section 2.3 connects the mathematical definition with the geometric one and discusses how vectors work within the framework of Cartesian coordinates
+        * Section 2.4 discusses the often confusing relationship bewtwen points and vectors and considers the rather philosophical question of why it is so difficult to make absolute measurements
+        * Section 2.5-2.12 discuss the fundamental calculations we can perform with vectors, considering both the algebra and geometric interpretations of each operation
+        * Section 2.13 presents a list of helpful vector algebra laws
+
+### 2.1 Mathematical Definition of Vector, and Other Boring Stuff
+* **To mathematicians, a vector is a list of numbers.** Programmers will reorganize the synonymous term array. Notice tthat the STL template array class in C++ is named vector, and the basic java array container class is java.util.Vector. So mathematically, a vector is nothing more than an array of numbers.
+* Yawn... If this abstract definition of a vector doesn't inspire you, don't worry. Like many mathematical subjects, we must first introduce some terminology and notation before we can get to the "fun stuff".
+* Mathematicians distinguish between vector and scalar (pronounced "SKAY-lur) quantities. You're already the expert on scalars--scalar is the technical term for an ordinary number. We use this term specifically when we wish to emphasize that a particular quantity is not a vector quantity. For example, as we will discuss shortly, "velocity" and "displacement" are vector quantities, whereas "speed" and "distance" are scalar quantities.
+* The dimension of a vector tells how many numbers the vector contains. Vectors may be of any positive dimension, including one. **In fact, a scalar can be considered a 1D vector.** In this book, we primarily are interested in 2D, 3D and (later) 4D vectors.
+* When writing a vector, mathematicians list the numbers surrounded by square brackets, for example, [1,2,3]. When we write a vector inline in a paragraph, we usually put commas between the numbers. When we write it out in an equation, the commas are often ommitted. In either case, **a vector written horizontally is called a row vector**. Vectors are also frequently written vertically
+
+$$
+\begin{bmatrix}
+1 \\
+2 \\
+3 \\
+\end{bmatrix}
+$$
+
+* A vector written vertically is known as a column vector. This book uses both notations. For now, the distinction between row and column vectors won't matter. **However, in Section 4.1.7 we discuss why in certain circumstances the distinction is critical.**
+* When we wish to refer to the individual components in a vector, we use subscript notation. In math literature, integer indices are used to access the elements. For example $v_1$ refers to the first element in $\boldsymbol{v}$. However, we are specifically interested in 2D, 3D and 4D vectors rather than vectors of arbitrary dimension n, so we rarely use this notation. Instead, we use x and y to refer to the elements in a 2D vector; x, y, and z to refer to the element in a 3D vector; and x, y, z, w to refer to the elements in a 4D vector. This notation is shown below.
+
+$$
+\begin{equation*}
+a = 
+\begin{bmatrix}
+1 \\
+2 \\
+\end{bmatrix}
+\end{equation*}
+$$
+
+$$
+\begin{equation*}
+b = 
+\begin{bmatrix}
+3 \\
+4 \\
+5 \\
+\end{bmatrix}
+\end{equation*}
+$$
+
+$$
+\begin{equation*}
+c = 
+\begin{bmatrix}
+6 \\
+7 \\
+8 \\
+9 \\
+\end{bmatrix}
+\end{equation*}
+$$
+
+* Notice that the components of a 4D vector are not in alphabetical order. The fourth value is w (Hey, they ran out of letters in the alphabet!)
+* Now let's talk about some important typeface conventions that are used in this book. As you know, variables are placeholder symbols used to stand for unknown quantities. In 3D math, wee work with scalar, vector and (later) matrix quantities. In the same way that it's important in a C++ or Java program to specify what type of data is stored by a variable, it is important when working with vectors to be clear what type of data is represented by a particular variable. In this book, we use different fonts for variables of different types:
+
+
+* Scalar variables are represented by lowercase Roman or Greek letters in italics: $\it{a}$, $\it{b}$, $\it{x}$, $\it{y}$, $\it{z}$, $\it{\alpha}$,$\it{\beta}$, $\it{\gamma}$,
+* Vector variables of any dimension are represented by lowercase letters in boldface: $\bf{a}$, $\bf{b}$, $\bf{x}$, $\bf{y}$, $\bf{z}$, $\bf{\alpha}$,$\bf{\beta}$, $\bf{\gamma}$
+* Matrix variables are represented using uppercase letters in boldface: $\bf{A}$, $\bf{B}$, $\bf{M}$, $\bf{R}$
+
+page 34
 
 # Chapter 3: Multiple Coordinate Spaces
 * MY: Very important. Talks about different spaces
