@@ -71,7 +71,124 @@ Summary
 * As we seek to invent new digital visual effects it is refreshing to remember that in 1939 Hollywood's Academy of Motion Picture Arts and Sciences (AMPAS) created the Special Effects category in their awards competition. Between 1964 and 1971 the category was renamed Special Visual Effects, and between 1972 and 1976 the category of visual effects was renamed as Special Achievement Award, one not necssarily given in a particular year. Since then the category has mostly been called Visual Effects. Winners between 1939 and 2003 are listed in the timelines at the end of this chapter.
 * If we go back a bit further, just to put three-dimensional computer animation in perspective, we find out that the first kinetoscope parlor opened in New York City in 1894, 101 years before the release of Toy Story. This event was the result of the work of Thomas Alva Edison and his assistant William K. Dickinson to improve the devices for creating images in motion and, above all, the simultaneous recording of sound and motion. Edison and his assistant developed the **kinetoscope**--which means "viewing in motion"" in Greek--a closed box in which 50 feet of looped film could be viewed through an opening. The few kinetoscope equipped with earphones to hear simultaneous music were called kinetophones. A few years later on the other side of the Atlantic, during the 1900 Paris Exhibition, a mechanical platform gently rocked by a steam machine presented riders with panoramic views of real and imaginary scenes of the world. These panoramic rides so popular at the turn of the nineteenth century are clearly the ancestors of virtual rides and location-based entertainment. In retrospect it is clear that the kinetoscope spawned many other film viewing and projection system that fueled the growth of the **seventh art**, cinema, and its animation cousin.
 
-SKIP
+```
+1.1.3. The Walt Disney Studios started using digital technology inthe production of its animated features during the mid-1980s. This listing also includes (marked with an asterisk *) a few of the movies produced as "straight-to-video", mostly by the Television Animation division. Some of the straight-to-video titles also had a limited theatrical release
+
+1985 The Black Cauldron
+1986 The Great Mouse Detective
+1988 Oliver & Company
+1989 The Little Mermaid
+1990 The Rescuers Down Under
+1991 Beauty and the Beast
+1992 Aladdin
+1994 The Lion King, and The Return of Jafar*
+1995 Pocahontas, and a Goofy Movie*
+1996 The Hunchback of Notre Dame, and Aladdin and the King of Thieves
+1997 Hercules
+1998 Mulan
+1999 Tarzan
+1999 Fantasia 2000
+2000 The Emperor's New Groove, Dinosaur, and The Tigger Movie*
+2001 Altantis: The most Empire, and Recess: School's Out*
+2002 Lilo & Stituch, Treaure Planet, and Return To Never Land
+2003 Brother Bear, Jungle Book 2*, and Piglet's Big Movie
+2004 Home of the Range, and Mulan 2*
+2005 Chicken Little (all-3D CG)
+2007 Meet the Robinsons (all 3D CG)
+2008 Bolt (all-3D CG)
+2009 The princess and the Frog
+2010 Rapunzel (all-3D CG)
+```
+
+### 1.2 The Development of the Technology
+* Computers, particularly their visual capabilities, are profoundly altering the way in which we create and distribute images. but the powerful computer systems that are so common today--and that everybody takes for granted--have existed for a relative short period of time.
+* The ancestors of today's electronic digital computers were mechanical adding machines used to perform repetitive arithmetic calculations. Those early mechanical devices eventually evolved into machines that could be programmed each time they were used to perform different sets of instructions. In the 1940s, electric versions of these computing machines were in operation.
+* The early computer models were called **mainframe** because all their bulky components were housed in large steel frames. During the 1960s two types of computers were developed. **Minicomputers**, smaller and less expensive than mainframes but almost as powerful, were developed in an attempt to bring computers to a wider audience and range of applications. **Supercomputers**, usually bigger and more expensive than mainframe computers, were developed to tackle the most taxing computing projects regardless of the cost and with an emphasis of speed and performance.
+* Before the mid-1970s the large majority of artists found computers very uninteresting. They were too expensive and cumbersome to operate, and even the simplest tasks required extensive programming. Most models lacked monitors, printers, mice, or graphics tablets. **Microcomputers** with million of microscopic electronic switches on a single **silicon chip** were developed in the mid-1970s. Some early models of microcomputers, such as the Apple Macintosh, the AMniga, and a variety of Intel-based PC computers, were widely embraced by visual professionals during the 1980s. Many of today's powerful microcomputers are small enough to be carried in a bag or briefcase. Those that can fit in a pocket still have limited capabilities for professional image creation, but many are quite good at displaying moving images of different degrees of quality. The supermicrocomputer and the parallel computer were developed during the 1980s and had a great effect on the way visual people use computers. **Super-microcomputers**--also called **workstations**--are microcomputers built around a powerful CPU that is customized to excel in the performance of a specific task, for example, three-dimensional computer animation. **Massively parallel computers** deal with very complex processing challenges by dividing up the tasks among a large number of small microprocessors. Some of these computers may have between a dozen and thousands of processors.
+* **Computer graphics technology** was developed in the early 1950s to make visible what was invisible to the human eye. Most of these early applications were related to the military, manufacturing, or the applied sciences and included, for example, flight simulators to train figher pilots without having to fly a real plane; computer-aided design and manufacturing (CADAM) systems to allow electrical engineers to design and test electronic circuits with millions of components; and computer-aided tomography (CAT) scanners to allow physicians to peek into the human body without having to physically open it. None of the early computer graphics systems was developed for artistic work.
+* During the 1950s and 1960s, the early years of computer graphics technology, the computer systems and techniques for creating images were rudimentary and very limited--especially by today's standards. During that period very few artists and designers even knew that computers could be used to create images.
+* During the 1970s and 1980s computer technology becam more practical and useful, and a significant number of visual creators started to get interested in using computers. During the 1990s a significant drop in the prices of computer systems and an increase in their computing power occured. This situation encouraged many visual professionals to purchase the technology and to integrate it into their daily professional practices. Professionals from all visual disciplines accepted computer technology as it became more powerful, more practical, and less expensive. *Many of the major technical innovation in the area of computer animation and related applications have traditionally been presented at the **SIGGRAPH** annual conference*. Sponsored by the Association for Computing Machinery's Special Interest Group in Graphics, SIGGRAPH has been the most influential professional association in the field of computer animation since the 1960s. Figure 1.2.1 lists the international computer animation projects awarded at SIGGRAPH's screenings since the inception of the awards. It also lists some of the computer science and engineering pioneers in the field of computer graphics as recognized by their peers through the SIGGRAPH awards. Some of the research papers and innovations of these technical pioneers can be found in the conference proceedings.
+* The computer technology necessary for creating three-dimensional imagery and animation has evolved tremendously since the first systems were developed in the 1950s. Within just a few decades the capabilities of hardware and software for creating three-dimensional environments went from simple to highly complex representations that often fool our visual perception.
+* A computer history of three-dimensional computer graphics technology and creative works remains to be written. However, the information presented in the rest of this chapter summarizes some of the highlights and landmarks. This summary is certainly not exhaustive, and it does not attempt to present a complete and detailed portrait of all the significant events. Instead, it provides a personal account of individual examples and a summary of the major trends.
+
+```
+1.2.1 Recipients of the SIGGRAPH Computer Animation Best of Show Award and the Jury Honors Award
+
+SIGGRAPH Computer Animation Festival Awards
+
+Best of Show Award
+1999 Bunny, Chris Wedge
+2000 Onimusha, Takeshi Kaneshiro
+2001 Value, Van Phan
+2002 The Cathedral, Tomek Baginski
+2003 Eternal Gaze, Sam Chen
+2004 Birthday Boy, Sejong Park
+2005 9, Shane Acker
+2006 One Rat Short, Alex Weil
+2007 Ark, Grzegorz Jonkajtyz and Marcin Kobylechi
+2008 Oktapodi, Emud Mokhberi et al.
+
+Jury Honor Award
+1999 Masks, Piotr Karwas
+2000 Stationen, Christian Swade-Meyer
+2001 F8, Jason Wen
+2002 Le Deserteur, Olivier Coulon, Aude Danset et al.
+2003 Tim Tom, Romain Segaud and Christel Pougeoise
+2004 Ryan, Chris Landreth
+2005 Fallen Art, Tomek Baginski; and La Migration Bigoudenn, Eric Castaing et al.
+2006 458nm, Jan Bitzer et al
+2007 Dreammaker, Leszek Plichta
+2008 Mauvais Role, Alan Barbier, Camille Campion et al.
+
+Recipient of the SIGGRAPH awards for technical research in computer graphics, including the Computer Graphics Achievement Award, and the Steven A. Coons Outstanding Creative Ontributions Award
+
+Computer graphics Achievement
+1983 James F. Blinn
+1984 James H. Clark
+1985 Loren Carpenter
+1986 Turner Whitted
+1987 Robert Cook
+1988 Alan H. Barr
+1989 John Warnock
+1990 Richard Shoup and Alvy Ray Smith
+1991 James T. Kajiya
+1992 Henry Fuchs
+1993 Pat Hanrahan
+1994 Kenneth E. Torrance
+1995 Kurt Akeley
+1996 Marc Levoy
+1997 Przemyslaw Prusinkiewicz
+1998 Michael F. ohen
+1999 Tony DeRose
+2000 David H. Salesin
+2001 Andrew Witkin
+2002 David Kirk
+2003 Peter Schroder
+2004 Hugues Hoppe
+2005 jos Stam
+2006 Thomas W. Sederberg
+2007 Greg Ward
+2008 Ken Perlin
+```
+
+### Technical Developments: 1950s and 1960s
+* The decades of the 1950s and 1960s saw the development of the first interactive computer systems, which were further improved during the following decade. The field of computer graphics was so new then, and most of the technological innovations from this period did not yield spectacular visual results. These innovations were, however, fundamental in facilitating the impressive developments that would flourish 20 years later.
+* The first computer to use CRT displays as output peripherals was the Whirlwind computer at the Massachusetts Institute of Technology (MIT) in the early 1950s. This system was used to display the solutionws to differential equations on oscilloscope monitors. During the mid- to late-1950s the SAGE Air Defence System of the U.S. Air Force used command-and-control CRT displays on which operators could detect aircraft flying over the continental United States. The SAGE operators were also able to obtain information about the aircraft by pointing at their icons on the screen with light pens.
+* During the 1960s various technology-intensive organizations developed the first **computer-aided design and manufacturing (CADAM)** systems. The goal of these early CADAM systems was to make the design process more effective by offering users sophisticated design functions and to improve the organization of the manufacturing process by linking the numerical data that represents an image with other types of information, such as inventory and engineering analysis. One of the first CADAM systems was developed by General Motors, and it included various time-sharing graphic stations for designing cars. Other companies, including Boeing Aerospace, IBM, McDonnell Douglas, General Electric, and Lockheed, developed similar systems.
+* Early attempts to create computer-generated movies took place in several research institutions. Short pieces of animation were produced at Boeing by William Fetter and Walter Bernhart in the early 1960s. Three-dimensional drawing were plotted on paper and filmed one at a time to produce animations of an aircraft carrier landing. Fetter also modeled the human figure for ergonomic studies related to the design of cockpits. At Bell Laboratories, researchers Michael noll and Bela Julesz produced various stero computer animations on film to aid in the study of stereo perception. During this period some of the first animation programming languages were developed, but most of them resulted in programs that ran only in noninteractive mode.
+* Only a few commercial companies were involved in computer graphics research during these two decades. Most of the technological developments during this period came out of government-funded academic research laboratories such as MIT's Lincoln Labs.
+* In the early 1960s, computer graphics were developed to visualize objects and situations that were too costly or just impossible to represent otherwise. Flight simulators, CADAM systems, and CAT scanners were among the pioneering computer graphics systems.
+* The first interactive system, called **Sketchpad**, was developed in the early 1960s by Ivan Sutherland at MIT. This system allowed users to interact with simple wireframe object via a light pen. This system made use of several new interaction techniques and new data structures for dealing with visual information. It was an interactive design system with capabilities for the manipulation and display of two- and three-dimensional wireframe objects.
+* By the mid-1960s the first algorithms for removal of hidden surfaces were developed, and the systems for producing full-color surface-shaded animation in real time were improved. General Electric developed a flight simulator that animated and dsiplayed simultaneously as many as 40 solid objects with hidden surfaces removed and in full color. The Mathematical Application Group, Inc. (MAGI) in Elmsford, New York, was one of the first companies that offered computer-generated animation of fully rendered polygonal objects in the commercial environment. Their process was named **Synthavision**, and its first contracts included simulations for the military and advertising-related projects.
+* The early three-dimensional computer animation and imaging systems depended on costly mainframe computers that were slow by today's standards. Most of the program would run only on a specific type of computer and display device, and were not portable to other systems. The use of computer graphic systems during the 1960s was restricted by the high cost and limitations of the hardware involved.
+* Virtually all of the graphics software from this period was developed in-house. It was not marketed, and it was minimally documented. Most programs were executed in the batch mode, and very few had any interactive features at all. users had to input their data almost exclusively through the keyboard; other types of input peripherals that encouraged more artistic freedom were just not available. A few computer systems had graphics screens, but most had monochrome alphanumeric CRT screens or just teletype or dot matrix printers.
+
+### Technical Development: 1970
+* The 1970s was a significant decade for the development of computer animation and imaging technology. Many of the basic rendering techniques still in use today were forumulated during the 1970s. The minicomputers that became popular during the 1970s were easier to maintain than mainframe computers, and provided significantly more power at a reduced cost. Microcomputer technology was also introduced to the consumer markets in the late part of the decade.
+* From the point of view of computer hardware, most of the research and production work done during this decade was based on minicomputers. The microcomputer's 8-bit computing power, memory capabilities, and output solution was insignificant when compared to their high-end counterparts. But in the videogames arena the new microcomputers greatly contributed to the popularization of computer-generated graphics. A standard configuraiton of an early 1970s microcomputer included 8-bit CPU without any graphics co-processor, less than 100 KB of RAM memory, a clock speed of 10 MHz, a low resolution screen with a maximum palette of 8 colors (or slightly higher if dithering was used), and a limited amount of peripheral storage.
+* During this decade the University of Utah became a primordial force and a center of innovation in three-dimensional computer graphics research. Under the guidance of David Evans, co-founder of Evans & Sutherland, the Department of Computer Science at the University of Utah produced a distinguished roster of Ph.D students. Many of them developed a large number of the major technical contributions of the decade, such as the original versions of polygonal, Gouraud, and Phong shading; image and bump texture mapping; z-buffering; the subdivision and the painter's algorithms for hidden line removal; antialiasing methods; and hand and facial computer animation.
+
+### Technical Developments: 1980s
 
 SECTION II: Modeling
 
@@ -88,6 +205,6 @@ SECTION II: Modeling
 * The main point of reference in the world is called the world origin. The origin is usually located in the center of the space, but it can also be placed or repositioned elsewhere depending on the modeling needs and strategies. For example, if we were building a model of the solar system, it would make sense to have the world origin where the sun is, in the centre, because all the other objects in the system are placed around the sun, and can be easily described in terms of the sun. If we were building an underwater scene and included both fish under the water and boats above the water, we might want to position the origin at the point where air and water meet. In the case of 3D modeli of an airport, the world origin could be placed at ground level, matching the position of the control tower. All 3D spaces have three basic dimensions: width, height, depth. A common method for representing these dimensions in a 3D space is by using arrows or axes. It is common to label the axis representing the width of a 3D space with the letter X, the height axis with letter Y, and the depth axis with the letter Z. The point in space where these three axes intersect, or cross each other, is the world origin.
 * The **rectangular coordinate system** can be used to define specific locations and accurately position the points of objects in 3D space. Rene Descartes, an eighteenth-century French philosopher and mathematician, formalized the idea of using three axes labeled X, Y, and Z, to represent the dimensios in 3D space. The coordinate system he devised is commonly referred to as the Cartesian (or rectangular) coordinate system. Each axis in the system can be divided into many units of measurement. In principle these units are abstract values that can represent different units of measurement and scales of dimension. On each axis the values to one side of the origin are positive, and the values on the other side are negative. 
 * There are many ways of representing the direction of an axis and, consequently, the directions in which values on that axis are positive or negative. usually though, in what is called a **right-handed coordinate system**, the values of the X axis become larger to the right of the origin, the values of the Y axis increase as they move above the origin, and the value on the Z axis grow as they get closer to us. In the **left-handed coordinate system** the value on the Z axis decrease as they get closer to us. There are several variations of the directionality of the rectangular coordinate system, but most 3D modeling programs use the right-handed coordinate system to describe the virtual world.
-* The thre axes in the 
+* The three axes in the 
 
 page 3

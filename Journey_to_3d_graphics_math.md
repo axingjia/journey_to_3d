@@ -181,7 +181,76 @@ $$
 * Vector variables of any dimension are represented by lowercase letters in boldface: $\bf{a}$, $\bf{b}$, $\bf{x}$, $\bf{y}$, $\bf{z}$, $\bf{\alpha}$,$\bf{\beta}$, $\bf{\gamma}$
 * Matrix variables are represented using uppercase letters in boldface: $\bf{A}$, $\bf{B}$, $\bf{M}$, $\bf{R}$
 
-page 34
+
+* note that other authors may use different conventions. One common convention used frequently when writing vectors by hand, is to draw an arrow over the vector, for example $\vec{a}$
+
+* Before we go any further, a bit of context is in order concerning the perspective that we are adopting about vectors. The branch of mathematics that deals primarily with vectors and matrices is called **linear algebra**, a subject that assumes the abstract definition given previously: a vector is an array of numbers. This highly generalized approach allows for the exploration of a large set of mathematical problems. In linear algebra, vectors and matrices of dimension n are used to solve a system of n linear equations for n unknowns, without knowing or caring what physical significance, if any, is attached to any of the numbers. This is certainly a fascinating and highly practical study, but it is not of primary interst to our investigation of 3D math. For 3D math, we are mostly concerned with the geometric interpretations of vectors and vector operations.
+* Our focus is geometric, so we omit many details and concepts of linear algebra that do not further our understanding of 2D or 3D geometry. Even though we occasionally discuss properties or operations for vectors of an arbitrary dimension n, we will usually focus on 2D, 3D, and (later) 4D vectors and matrices. Even when the numbers in a vector do not have any physical significance, the ability to visualize the linear algebra operations is of some utility, so learning how to interpret the operations geometrically is useful even in nonphysical applications. Some more context about how the topics in this book fit into the bigger picture of linear algebra can be found in Section 4.3.
+
+## 2.2 Geometric Definition of Vector
+* Now that we have discussed what a vector is mathematically, let's look at a more geometric interpretation of vectors. Geometrically speaking, **a vector is a directed line segment that has magnitude and direction.**
+
+                * The magnitude of a vector is the length of the vector. A vector may have any nonnegative length
+                * The direction of a vector describes which way the vector is pointing in space. Note that "direction" is not exactly the same as "orientation", a distinction we will reexamine in Section 8.1.
+
+* Let's look at a vector. Figure 2.1 shows an illumination of a vector in 2D. It looks like an arrow, right? This is the standard way to represent a vector graphically, since the two defining characteristics of a vector are captured: its magnitude and direction.
+* We sometimes refer to the head and tail of a vector. As shown in Figure 2.2, the head is the end of the vector with the arrowhead on it (where the vector "ends") and the tail is the other end (where the vector "starts")
+* Where is this vector? Actually, that is not an appropriate question. Vectors do not have position, only magnitude and direction. This may sound impossible, but many quantities we deal with on a daily basis have magnitude and direction, but no position. Consider how the two statements below could make sense, regardless of the location where they are applied.
+
+                * Displacement. "Take three steps forward". This sentence seem to be all about positions, but the actual quantity used in the sentence is a relative displacement and does not have an absolute position. This relative displacement consists of a magnitutde (3 steps) and a direction (forward), so it could be represented by a vector
+                * Velocity. "I am traveling northeast at 50 mph". This sentence describes a quantity that has magnitude (50 mph) and direction (northeast), but no position. The concept of "northeast at 50mph" can be represented by a vector.
+
+* Notice that displacement and velocity are technically different from the terms distance and speed. Displacement and velocity are vector quantities and therefore entail a direction, whereas distance and speed are scalar quantities that do not specify a position. More specifically, the scalar quantity distance is the magnitude of the vector quantity displacement, and the scalar quantity speed is the magnitude of the vector quantity velocity.
+* Because vectors are used to express displacements and relative differences between things, **they can describe relative positions ("My house is 3 blocks east of here")** However, you should not think of a vector as having an absolute position itself, instead, remember that it is describing the displacement from one position to another, in this case from "here" to "my house". (More on relative versus absolute position in Section 2.4.1) To help enforce this, when you imagine a vector, picture an arrow. Remember that the length and direction of this arrow are significant, but not the position.
+* Since vectors do not have a position, we can represent them on a diagram anywhere we choose, provided that the length and direction of the vector are represented correctly. We often use this fact to our advantage by sliding the vector around into a meaning location on a diagram. 
+* Now that we have the big picture about vectors from a mathematical and geometric perspective, let's learn how to work with vectors in the Cartesian coordinate system.
+
+### 2.3 Specifying Vectors with Catesian Coordinates
+* When we use Cartesian coordinates to describe vectors, each coordinate measure a signed displacement in the corresponding dimension. For example, in 2D, we list the displacement parrallel to the x-axis, and the displacement parallel to the y-axis.
+* Figure 2.4 shows several 2D vectors an their values. Notice taht the position of each vector on the diagram is irrelevant. (The axes are conspicuously absent to emphasize this fact, although we do assume the standard convention of +x pointing to the right and +y pointing up) For example, two of the vectors in Figure 2.4 have the value [1.5,1], but they are not in the same place on the diagram.
+* 3D vectors are a simple extension of 2D vectors. A 3D vector contains three numbers, which measure the signed displacements in the x,y,z direction, just as you'd expect.
+* We are focusing on Cartesian coordinates for now, but they are not the only way to describe vectors mathematically. Polar coordinates are also common, especially in physics textbooks. Polar coordinates are the subject of Chapter 7.
+
+#### 2.3.1 Vector as a Sequence of Displacements
+* One helpful way to think about the displacement described by a vector is to break out the vector into its axially aligned components. When these axially aligned displacements are combined, they cumulatively define the displacement defined by the vector as a whole.
+* For example, the 3D vector [1,-3,4] represents a single displacement, but we can visualize this displacement as moving 1 unit to the right, 3units down, and then 4 units forward. (Assume our convention that +x, +y, and +z point right, up, forward, respectively. Also note that we do not "turn" between steps, so "forward" is always parallel to +z).
+* The order in which we perform the steps is not important; we could move 4 units forward, 3 units down, and then 1 unit to the right, and we would have displaced by teh same total amount. The different ordering correspond to different routes along the axially aligned bounding box containing the vector. Section 2.7.2 mathematically verifies the geometric intuition.
+
+### 2.3.2 The Zero Vector
+* For any given vector dimension, there is a special vector, known as the zero vector, that has zeros in very position. For example, the 3D zero vector is [0,0,0]. We denote a zero vector of any dimension using a boldface zero: $\bf{0}$. In other words:
+
+$$
+\begin{equation*}
+\bf{0} = 
+\begin{bmatrix}
+0 \\
+0 \\
+... \\
+0 \\
+\end{bmatrix}
+\end{equation*}
+$$
+
+* The zero vector is special because it is the only vector with a magnitude of zero. All other vectors have a positive magnitutde. The zero vector is also unique because it is the only vector that does not have a direction.
+* Since the zero vector doesn't have a direction or length, we don't draw it as an arrow like we do for other vectors. Instead, we depict the zero vector as a dot. But don't let this make you think the zero vector as a "point" because a vector does not define a location. Instead, think of the zero vector as a way to express the concept of "no displacement", much as the scalar zero stands for the concept of "no quantity".
+* **Like the scalar zero you know, the zero vector of a given dimension is the additive identity for the set of vectors of that dimension.** Try to take yourself back to your algebra class, and retrieve from the depths of your memory the concept of the additive identity: for any set of elements, the additive identity of the set is the element x such that for all y in the set, y+x =${y}^2$. In other words, when we add the zero vector to any other vector, we get that vector: 0 + a=a. Section 2.7 deals with vector addition.
+
+### 2.4 Vectors versus Points
+* Recall that a "point" has a location but no real size or thickness. In this chapter, we have learned how a "vector" has magnitude and direction, but no position. So "points" and "vectors" have different purposes, conceptually: a "point" specifies a point, and a "vector" specifies a displacement.
+* But now examine Figure 2.6, which compares an illustration from Chapter 1, showing how 2D points are located, with a figure from earlier in this chapter, showing how 2D vector are specified. **It seems that there is a strong relationship between points and vectors. This section examines this important relationship.**
+
+#### 2.4.1 Relative Position
+* Section 2.2 discussed the fact that because vectors can describe displacements, they can describe relative positions. The idea of a relative position is fairly straightforward: the position of something is specified by describing where it is in relation to some other, known location.
+* This begs the questions: Where are these "known" locations? What is an "absolute" position? It is surprising to realize that there is no such thing! Every attempt to describe a position requires that we describe it relative to something else. Any description of a position is meaningful only in the context of some (typically "larger") reference frame. Theoretically, we could establish a reference frame encompassing everything in existence and select a point to be the "origin" of this space, thus defining the "absolute" coordinate space. However, even if such an absolute space were possible, it would not be practical. Luckily for us, absolute positions in the universe aren't important. Do you know your precise position in the universe right now? We don't know ours, either.
+
+#### 2.4.2 The Relationship between Points and Vectors
+* Vectors are used to describe displacements, and therefore they can describe relative positions. Points are used to specify positions. But we have just established in Section 2.4.1 that any method of specifying a position must be relative
+
+
+
+
+page 40
+
 
 # Chapter 3: Multiple Coordinate Spaces
 * MY: Very important. Talks about different spaces
